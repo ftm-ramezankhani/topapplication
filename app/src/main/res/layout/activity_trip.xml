@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TripActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView14"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        app:cardBackgroundColor="#CF523C"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4">
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:text=">"
+            android:textColor="#FDFBFB"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:translationX="330dp"
+            android:translationY="10dp" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:text="خدمات سفر"
+            android:textColor="#FAF7F7"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:translationX="110dp"
+            android:translationY="10dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="46dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView10">
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:translationX="10dp"
+            android:translationY="5dp"
+            app:srcCompat="@drawable/transaction1_icon" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:translationX="95dp"
+            android:translationY="2dp"
+            app:srcCompat="@drawable/wallet2_icon" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:translationX="180dp"
+            android:translationY="5dp"
+            app:srcCompat="@drawable/report_icon" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:translationX="270dp"
+            android:translationY="5dp"
+            app:srcCompat="@drawable/creditcard_icon" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:translationX="358dp"
+            android:translationY="5dp"
+            app:srcCompat="@drawable/home2_icon" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="185dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="#F8F5F5"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView9">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:text="هتل"
+            android:textColor="#0B0B0B"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationX="75dp"
+            android:translationY="80dp" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="65dp"
+            android:translationY="15dp"
+            app:srcCompat="@drawable/hotel_icon" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView10"
+        android:layout_width="185dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="#F8F5F5"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView8">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:text="بلیت اماکن گردشگری"
+            android:textColor="#040404"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationX="15dp"
+            android:translationY="85dp" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="65dp"
+            android:translationY="20dp"
+            app:srcCompat="@drawable/tourist_place_icon" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView9"
+        android:layout_width="185dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="#F8F5F5"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardviewplane">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:text="بلیت اتوبوس"
+            android:textColor="#090909"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationX="40dp"
+            android:translationY="80dp" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="65dp"
+            android:translationY="15dp"
+            app:srcCompat="@drawable/bus_icon" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView8"
+        android:layout_width="185dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="#F8F5F5"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView4">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:text="بلیت تور"
+            android:textColor="#050505"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationX="55dp"
+            android:translationY="85dp" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="65dp"
+            android:translationY="20dp"
+            app:srcCompat="@drawable/tour_icon" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardviewplane"
+        android:layout_width="185dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="50dp"
+        app:cardBackgroundColor="#F8F5F5"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView14">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:text="بلیت هواپیما"
+            android:textColor="#0B0A0A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationX="40dp"
+            android:translationY="80dp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="65dp"
+            android:translationY="15dp"
+            app:srcCompat="@drawable/airplane_icon" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/notification" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/top_icon" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/menu" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="185dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
+        app:cardBackgroundColor="#F8F5F5"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView14">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="65dp"
+            android:translationY="20dp"
+            app:srcCompat="@drawable/train_icon" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:text="بلیت قطار"
+            android:textColor="#0B0B0B"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationX="50dp"
+            android:translationY="85dp" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
